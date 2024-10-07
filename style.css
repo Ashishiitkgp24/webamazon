@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+
+}
+
+.navbar {
+
+    height: 60px;
+    color: white;
+    background-color: #0f1111;
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 165px;
+
+}
+.nav-search:hover{
+    border: 2px solid  orange;
+
+}
+
+.logo { font-display:unset;
+    background-image: url("image.png");
+
+    width: 100%;
+    background-size: cover;
+    height: 50px;
+    width: 165px;
+    size: 10% ;
+    /* background-color: white; */
+}
+
+.border:hover { border: 1.5px solid white
+} 
+ .border{   border: 1.5px solid transparent ;}
+        
+ .add-first{
+    color : white; 
+    font-size: 1rem ;
+    margin-left: 30px;
+ }
+ .add-flex{ 
+    display : flex; 
+    align-items: center;
+ }
+ .add-icon { 
+    display: flex;
+align-items: center;}
+.add-sec { 
+    margin-left : 30px ;
+}
+.add-icon{ 
+    margin-left: 20px;
+}
+.nav-search{ 
+    display:flex;
+    /* margin-bottom: 40px ; */
+    margin-left: 30px ;
+   width: 620px;
+    height: 40px;
+    border-top-left-radius: 4px;
+} 
+.search-select{ 
+    background: color #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-right-radius: 4px;
+    border: none;  
+}
+.search-input  { 
+    width: 100%;
+    font-size: 1rem;
+
+}
+span{ 
+    font-size: 0.7rem ;  
+    
+}
+.nav2{ 
+    font-size: 0.85rem ;
+    font-weight: 700;
+}
+.navcart{ 
+    font-weight: 700 ;
+}
+.panel{ 
+    height: 40px;
+    background-color: #222f3d;
+    display : flex; 
+    color: white ; 
+    align-items: center; 
+    justify-content: space-evenly;
+}
+.mpanel{ 
+    
+   width: 10px;} 
+   
+  
+
+   .panel-ops p { 
+    display: inline;
+    width: 70%;
+    font-size: 0.85rem;
+    margin-left: 15px;
+
+   }
+   .paneldeals{  
+    font-size: 0.9rem;
+    font-weight: 700;
+   }
+   .herosec{ 
+    background-image: url("ama.png") ;
+    height: 500px ;
+    background-size: cover;
+    justify-content: center;
+align-items:center ;
+display: flex;
+   }      
+   .heromsg{ display: flex-end;
+    background-color: white
+; text-align: center; 
+color: black; 
+size: 1.1rem; 
+font-family: fantasy; 
+width: 90%;
+margin-top: 400px ;
+   }
+   .shopsec{ 
+    display:flex; 
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color:pink;
+   }
+
+   .box{ 
+    height: 610px;
+    border: #0f1111 solid 2px;
+    width: 23% ;
+    background-color: white;
+    text-overflow: initial ;
+    display: cover;
+   }
+   .box1{
+    background-image: url("gaming.png");
+    }
+    .box2{ 
+        background-image: url("clean.png");
+    }
+    .box3{ 
+        background-image: url("clean3.png");
+    } .box4{ 
+        background-image: url("clean4.png");
+    }
+    .box4{
+    background-image: url("clean4.png");
+    }
+        
+    .box5{
+     background-image: url("7.png");
+     }
+            
+    .box6{
+    background-image: url("9.png");
+    }
+    .box7{
+     background-image: url("10.png");
+    }
+    
+    .box8{
+        background-image: url("8.png ");
+    }
+    .footp2{display: flex;
+background-color: #222f3d; 
+height: 300px;
+justify-content: space-evenly;
+color:#dddddd;
+
+
+    }
+    .footp1{ 
+        background-color: #37475a;
+        color: white;
+        height: 50px; 
+        display:flex; 
+        justify-content: center;
+        align-items: center;
+        font-size: 0.85rem;
+
+
+    }
+    .ul { 
+        display: block; 
+        color:bisque;
+
+    }
